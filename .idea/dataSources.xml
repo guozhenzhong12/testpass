@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Apache Cassandra - @192.168.44.36" uuid="b6facb3c-c48f-4d8a-9560-248e345799b3">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://192.168.44.36:9042</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="192.168.44.54" uuid="f2ccc67e-5a99-49b3-b6b2-74e08a36416f">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.44.54:5432</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
